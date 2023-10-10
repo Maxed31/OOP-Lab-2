@@ -73,7 +73,7 @@ import java.util.*;
             }
         }
     }*/
-public class Main {
+/*public class Main {
     public static void main(String[]args){
         Scanner keyboard = new Scanner(System.in);
         System.out.print("Enter the number: ");
@@ -85,5 +85,13 @@ public class Main {
             i++;
         }
         System.out.println("Sum equals to: " + sum);
+    }
+}*/
+public  class Main {
+    public static void PrintText(){
+        System.out.println("In the beginning there where the swamp, the hoe and Java. ");
+    }
+    public static void main(String[]args){
+    PrintText();
     }
 }
