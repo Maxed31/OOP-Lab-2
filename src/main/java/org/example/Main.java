@@ -95,7 +95,7 @@ import java.util.*;
     PrintText();
     }
 }*/
-public class Main{
+/*public class Main{
     private static void PrintStar(int amount){
         for (int i = 1; i <= amount; i++){
             System.out.print("*");
@@ -104,6 +104,21 @@ public class Main{
     }
     public static void main(String[] args){
         PrintStar(2);
+
+    }
+}*/
+public class Main{
+    private static void drawStarPyramid(int amount){
+        for (int i = 1; i <= amount; i++){
+            for(int j=1; j <= i; j++ ){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+    }
+    public static void main(String[] args){
+        drawStarPyramid(5);
 
     }
 }
