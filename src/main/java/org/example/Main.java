@@ -87,11 +87,23 @@ import java.util.*;
         System.out.println("Sum equals to: " + sum);
     }
 }*/
-public  class Main {
+/*public  class Main {
     public static void PrintText(){
         System.out.println("In the beginning there where the swamp, the hoe and Java. ");
     }
     public static void main(String[]args){
     PrintText();
+    }
+}*/
+public class Main{
+    private static void PrintStar(int amount){
+        for (int i = 1; i <= amount; i++){
+            System.out.print("*");
+        }
+        System.out.println("");
+    }
+    public static void main(String[] args){
+        PrintStar(2);
+
     }
 }
