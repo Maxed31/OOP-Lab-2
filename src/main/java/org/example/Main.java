@@ -53,7 +53,7 @@ import java.util.*;
         System.out.println("Final sum is: " + sum);
     }
 }*/
-public class Main{
+/*public class Main{
     public static void main(String []args){
         Scanner keyboard = new Scanner(System.in);
         System.out.print("First: ");
@@ -72,4 +72,18 @@ public class Main{
              System.out.println("lmao");
             }
         }
+    }*/
+public class Main {
+    public static void main(String[]args){
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int num = keyboard.nextInt();
+        int i = 0;
+        int sum = 0;
+        while (i <= num){
+            sum += (int)Math.pow(2,i);
+            i++;
+        }
+        System.out.println("Sum equals to: " + sum);
     }
+}
