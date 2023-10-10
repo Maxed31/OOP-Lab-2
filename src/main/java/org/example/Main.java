@@ -16,7 +16,7 @@ import java.util.*;
         }
         }
     }*/
-public class Main{
+/*public class Main{
     public static void main(String[] args){
         Scanner keyboard = new Scanner(System.in);
         int sum = 0;
@@ -33,5 +33,22 @@ public class Main{
 
         System.out.println("Your sum is: " + sum);
 
+    }
+}*/
+public class Main {
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        int sum = 0;
+        System.out.println("Enter the numbers you wish to sum: ");
+        while (true){
+            int read = Integer.parseInt(keyboard.nextLine());
+            if(read == 0){
+                break;
+            }
+            sum += read;
+            System.out.println("Current sum: " + sum);
+
+        }
+        System.out.println("Final sum is: " + sum);
     }
 }
