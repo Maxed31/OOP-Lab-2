@@ -1,4 +1,5 @@
 package org.example;
+import java.sql.SQLOutput;
 import java.util.*;
 /*public class Main {
     public static void main(String[] args) {
@@ -35,7 +36,7 @@ import java.util.*;
 
     }
 }*/
-public class Main {
+/*public class Main {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         int sum = 0;
@@ -51,4 +52,24 @@ public class Main {
         }
         System.out.println("Final sum is: " + sum);
     }
-}
+}*/
+public class Main{
+    public static void main(String []args){
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("First: ");
+        int a = keyboard.nextInt();
+        System.out.println("Second: ");
+        int b = keyboard.nextInt();
+
+        if (a < b) {
+           while(a <= b){
+               System.out.println(a);
+               a +=1;
+            }
+        }
+        else
+         {
+             System.out.println("lmao");
+            }
+        }
+    }
