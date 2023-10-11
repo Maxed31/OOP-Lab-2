@@ -122,7 +122,7 @@ import java.util.*;
 
     }
 }*/
-public class Main{
+/*public class Main{
     private static void drawStarPyramid(int amount){
         for (int i = 1; i <= amount; i++){
             for(int j=1; j <= i; j++ ){
@@ -136,4 +136,4 @@ public class Main{
         drawStarPyramid(5);
 
     }
-}
+}*/
