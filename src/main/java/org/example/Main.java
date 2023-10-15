@@ -145,11 +145,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Scanner keyboard = new Scanner(System.in);
+
         int randomNum = drawNumber();
         int numOfGuesses = 0;
         while (true) {
             System.out.print("Guess a number: ");
-            int guess = Integer.parseInt(reader.nextLine());
+            int guess = Integer.parseInt(keyboard.nextLine());
 
             if (guess > randomNum) {
                 numOfGuesses++;
