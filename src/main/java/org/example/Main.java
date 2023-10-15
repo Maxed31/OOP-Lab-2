@@ -137,3 +137,30 @@ import java.util.*;
 
     }
 }*/
+public class Main {
+    public static int drawNumber() {
+        Random rand = new Random();
+        return rand.nextInt(100);
+    }
+
+    public static void main(String[] args) {
+
+        int randomNum = drawNumber();
+        int numOfGuesses = 0;
+        while (true) {
+            System.out.print("Guess a number: ");
+            int guess = Integer.parseInt(reader.nextLine());
+
+            if (guess > randomNum) {
+                numOfGuesses++;
+                System.out.println("The number is lesser, guesses made: " + numOfGuesses);
+            } else if (guess < randomNum) {
+                numOfGuesses++;
+                System.out.println("The number is greater, guesses made: " + numOfGuesses);
+            } else {
+                System.out.println("Congratulations, your guess is correct");
+                break;
+            }
+        }
+    }
+}
