@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lab;
 import java.sql.SQLOutput;
 import java.util.*;
 /*public class Main {
