@@ -1,4 +1,5 @@
 package week4.labs;
+import week4.labs_secondTask.*;
 import week4.labs.*;
 import java.util.List;
 import java.util.ArrayList;
@@ -28,6 +29,20 @@ public class Main {
 //
 //        printDepartment(people);
 //    }
+
+
+//        Circle circle = new Circle("red", FillType.FILLED, 5.2);
+//        Rectangle rectangle = new Rectangle("blue", FillType.NOT_FILLED, 6, 2.5);
+//
+//        circle.displayInfo();
+//        rectangle.displayInfo();
+
+
+//        Student1 st = new Student1(1, "Asdf 123");
+//        st.addGrade(4.5);
+//        st.addGrade(3.1);
+//        st.addGrade(4.7);
+//        System.out.println(st.getGrades());
 
     }
 }
