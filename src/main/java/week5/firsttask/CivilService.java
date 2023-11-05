@@ -1,9 +1,10 @@
-package week5;
+package week5.firsttask;
+import week5.firsttask.NationalService;
 
-public class MilitaryService implements NationalService {
+public class CivilService implements NationalService {
     private int daysLeft;
 
-    public MilitaryService(int daysLeft){
+    public CivilService(){
         this.daysLeft = daysLeft;
         daysLeft = 362;
     }
@@ -14,10 +15,10 @@ public class MilitaryService implements NationalService {
 
     @Override
     public void work() {
-        if (daysLeft > 0){
-            daysLeft = daysLeft -1;
-        }
+    if (daysLeft > 0){
+        daysLeft = daysLeft -1;
+    }
         System.out.println("YOU HAVE TO STOP, YOU HAVE NO DAYS LEFT! ");
     }
-}
 
+}

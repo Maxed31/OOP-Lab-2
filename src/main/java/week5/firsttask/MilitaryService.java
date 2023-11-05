@@ -1,12 +1,11 @@
-package week5;
-import week5.NationalService;
+package week5.firsttask;
 
-import javax.swing.plaf.IconUIResource;
+import week5.firsttask.NationalService;
 
-public class CivilService implements NationalService {
+public class MilitaryService implements NationalService {
     private int daysLeft;
 
-    public CivilService(){
+    public MilitaryService(int daysLeft){
         this.daysLeft = daysLeft;
         daysLeft = 362;
     }
@@ -17,10 +16,10 @@ public class CivilService implements NationalService {
 
     @Override
     public void work() {
-    if (daysLeft > 0){
-        daysLeft = daysLeft -1;
-    }
+        if (daysLeft > 0){
+            daysLeft = daysLeft -1;
+        }
         System.out.println("YOU HAVE TO STOP, YOU HAVE NO DAYS LEFT! ");
     }
-
 }
+
