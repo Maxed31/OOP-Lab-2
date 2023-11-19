@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class Main {
     public static void main(String args[]) {
-        int[] values = {6, 5, 8, 7, 11};
+       /* int[] values = {6, 5, 8, 7, 11};
         System.out.println("Smallest is " +
                 Firsttask.smallest(values));
 
@@ -39,7 +39,7 @@ public class Main {
         } else {
             System.out.println("Value " + searchedValue + " is not in the array");
             int[] array1 = {5, 1, 3, 4, 2};
-            SixthTask.printElegantly(array1);
+            SixthTask.printElegantly(array1);*/
 
 //        NightSky nightSky = new NightSky(0.2);
 //        nightSky.printLine();
@@ -61,4 +61,4 @@ public class Main {
             System.out.println("Number of stars: " + NightSky.starsInLastPrint());
         }
     }
-}
+
